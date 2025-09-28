@@ -1,15 +1,14 @@
 {
   "@context": [
-    "https://www.w3.org/ns/did/v1",
-    "https://w3id.org/security/multikey/v1"
+    "https://www.w3.org/ns/did/v1"
   ],
   "id": "did:web:chandrahas121.github.io",
   "verificationMethod": [
     {
       "id": "did:web:chandrahas121.github.io#key-ed25519-1",
-      "type": "Multikey",
+      "type": "Ed25519VerificationKey2020",
       "controller": "did:web:chandrahas121.github.io",
-      "publicKeyMultibase": "z6SScnyMonVBD1puZZWDNkyLZyhuh8sJ3PQ4324op5KLA"
+      "publicKeyMultibase": "z6MkjthfPDcF82fg8KkGF5BDc4tZoHBYYkYQ5QxxrLmpzY7Y"
     }
   ],
   "authentication": [
