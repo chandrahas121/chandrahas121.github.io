@@ -1,6 +1,9 @@
 {
   "@context": [
-    "https://www.w3.org/ns/did/v1"
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/ed25519-2020/v1",
+    "https://w3id.org/security/multikey/v1",
+    "https://w3id.org/security/data-integrity/v2"
   ],
   "id": "did:web:chandrahas121.github.io",
   "verificationMethod": [
@@ -8,20 +11,30 @@
       "id": "did:web:chandrahas121.github.io#key-ed25519-1",
       "type": "Ed25519VerificationKey2020",
       "controller": "did:web:chandrahas121.github.io",
-      "publicKeyMultibase": "z6MkjthfPDcF82fg8KkGF5BDc4tZoHBYYkYQ5QxxrLmpzY7Y"
+      "publicKeyMultibase": "z6MkvEX1s4vxhXZae2PTXuRM8oVEwVoy8ekayDmjPXhABoMQ"
+    },
+    {
+      "id": "did:web:chandrahas121.github.io#key-p256-1",
+      "type": "Multikey",
+      "controller": "did:web:chandrahas121.github.io",
+      "publicKeyMultibase": "zDnaemQrSncsusQEis8jiADBZKGmgkrwCzAbWnxWE8CjnnLbz"
     }
   ],
   "authentication": [
-    "did:web:chandrahas121.github.io#key-ed25519-1"
+    "did:web:chandrahas121.github.io#key-ed25519-1",
+    "did:web:chandrahas121.github.io#key-p256-1"
   ],
   "assertionMethod": [
-    "did:web:chandrahas121.github.io#key-ed25519-1"
+    "did:web:chandrahas121.github.io#key-ed25519-1",
+    "did:web:chandrahas121.github.io#key-p256-1"
   ],
   "capabilityInvocation": [
-    "did:web:chandrahas121.github.io#key-ed25519-1"
+    "did:web:chandrahas121.github.io#key-ed25519-1",
+    "did:web:chandrahas121.github.io#key-p256-1"
   ],
   "capabilityDelegation": [
-    "did:web:chandrahas121.github.io#key-ed25519-1"
+    "did:web:chandrahas121.github.io#key-ed25519-1",
+    "did:web:chandrahas121.github.io#key-p256-1"
   ],
   "service": [
     {
