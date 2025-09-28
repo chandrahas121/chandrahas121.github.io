@@ -1,27 +1,33 @@
 {
   "@context": [
-    "https://www.w3.org/ns/did/v1"
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/secp256k1-2019/v1"
   ],
   "id": "did:web:chandrahas121.github.io",
   "verificationMethod": [
     {
-      "id": "did:web:chandrahas121.github.io#key-ed25519-1",
-      "type": "Ed25519VerificationKey2020",
+      "id": "did:web:chandrahas121.github.io#key-1",
+      "type": "EcdsaSecp256k1VerificationKey2019",
       "controller": "did:web:chandrahas121.github.io",
-      "publicKeyMultibase": "z6MkjthfPDcF82fg8KkGF5BDc4tZoHBYYkYQ5QxxrLmpzY7Y"
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "secp256k1",
+        "x": "-seBKkYhKBgtzgSEVk63Uz4Miqu4qSe-FlfHsVFY3-M",
+        "y": "vYk20OoPB1aPKXz-Ih78xRmfmmhU7EF62lljijFN7QI"
+      }
     }
   ],
   "authentication": [
-    "did:web:chandrahas121.github.io#key-ed25519-1"
+    "did:web:chandrahas121.github.io#key-1"
   ],
   "assertionMethod": [
-    "did:web:chandrahas121.github.io#key-ed25519-1"
+    "did:web:chandrahas121.github.io#key-1"
   ],
   "capabilityInvocation": [
-    "did:web:chandrahas121.github.io#key-ed25519-1"
+    "did:web:chandrahas121.github.io#key-1"
   ],
   "capabilityDelegation": [
-    "did:web:chandrahas121.github.io#key-ed25519-1"
+    "did:web:chandrahas121.github.io#key-1"
   ],
   "service": [
     {
