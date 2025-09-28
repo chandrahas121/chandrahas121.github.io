@@ -9,7 +9,7 @@
       "id": "did:web:chandrahas121.github.io#key-ed25519-1",
       "type": "Multikey",
       "controller": "did:web:chandrahas121.github.io",
-      "publicKeyMultibase": "zz6Mkh1D51GxJDd6Y3dBVUhmEogFj9bw9uFRE6372kTdwYS7k"
+      "publicKeyMultibase": "z6SScnyMonVBD1puZZWDNkyLZyhuh8sJ3PQ4324op5KLA"
     }
   ],
   "authentication": [
