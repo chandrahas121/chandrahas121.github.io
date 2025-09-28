@@ -1,0 +1,34 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/multikey/v1"
+  ],
+  "id": "did:web:chandrahas121.github.io",
+  "verificationMethod": [
+    {
+      "id": "did:web:chandrahas121.github.io#key-ed25519-1",
+      "type": "Multikey",
+      "controller": "did:web:chandrahas121.github.io",
+      "publicKeyMultibase": "zz6Mkh1D51GxJDd6Y3dBVUhmEogFj9bw9uFRE6372kTdwYS7k"
+    }
+  ],
+  "authentication": [
+    "did:web:chandrahas121.github.io#key-ed25519-1"
+  ],
+  "assertionMethod": [
+    "did:web:chandrahas121.github.io#key-ed25519-1"
+  ],
+  "capabilityInvocation": [
+    "did:web:chandrahas121.github.io#key-ed25519-1"
+  ],
+  "capabilityDelegation": [
+    "did:web:chandrahas121.github.io#key-ed25519-1"
+  ],
+  "service": [
+    {
+      "id": "did:web:chandrahas121.github.io#domain",
+      "type": "LinkedDomains",
+      "serviceEndpoint": "https://chandrahas121.github.io"
+    }
+  ]
+}
