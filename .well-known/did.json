@@ -18,23 +18,33 @@
       "type": "Multikey",
       "controller": "did:web:chandrahas121.github.io",
       "publicKeyMultibase": "zDnaemQrSncsusQEis8jiADBZKGmgkrwCzAbWnxWE8CjnnLbz"
+    },
+    {
+      "id": "did:web:chandrahas121.github.io#key-p384-1",
+      "type": "Multikey",
+      "controller": "did:web:chandrahas121.github.io",
+      "publicKeyMultibase": "z82LkxTL1MfC4Pgxe3SKfVaE6hcKjxG8haiTgAP6yKyXtFR8Mg6VWTxomb5nmGakmDzHMWu"
     }
   ],
   "authentication": [
     "did:web:chandrahas121.github.io#key-ed25519-1",
-    "did:web:chandrahas121.github.io#key-p256-1"
+    "did:web:chandrahas121.github.io#key-p256-1",
+    "did:web:chandrahas121.github.io#key-p384-1"
   ],
   "assertionMethod": [
     "did:web:chandrahas121.github.io#key-ed25519-1",
-    "did:web:chandrahas121.github.io#key-p256-1"
+    "did:web:chandrahas121.github.io#key-p256-1",
+    "did:web:chandrahas121.github.io#key-p384-1"
   ],
   "capabilityInvocation": [
     "did:web:chandrahas121.github.io#key-ed25519-1",
-    "did:web:chandrahas121.github.io#key-p256-1"
+    "did:web:chandrahas121.github.io#key-p256-1",
+    "did:web:chandrahas121.github.io#key-p384-1"
   ],
   "capabilityDelegation": [
     "did:web:chandrahas121.github.io#key-ed25519-1",
-    "did:web:chandrahas121.github.io#key-p256-1"
+    "did:web:chandrahas121.github.io#key-p256-1",
+    "did:web:chandrahas121.github.io#key-p384-1"
   ],
   "service": [
     {
